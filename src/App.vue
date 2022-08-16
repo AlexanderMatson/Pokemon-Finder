@@ -2,7 +2,7 @@
   <div id="project-finder-app">
     <b-container>
       <b-navbar variant="light" type="light" class="navbar d-flex justify-content-between">
-        <b-navbar-brand href="#">Project Finder</b-navbar-brand>
+        <b-navbar-brand href="#">Pokemon Finder</b-navbar-brand>
         <b-nav-text>
           <h3>
             <b-badge pill variant="info">{{ currentFeatures.features.length }} Projects Found</b-badge>

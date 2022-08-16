@@ -36,6 +36,7 @@ export default {
     },
   },
   methods: {
+    
     resetMarkers() {
       this.markers.forEach((marker) => {
         marker.remove();
@@ -59,7 +60,7 @@ export default {
         container: "map",
         style: "mapbox://styles/mapbox/streets-v11",
         center: [this.currentFeatures.features[0].geometry.coordinates[0], this.currentFeatures.features[0].geometry.coordinates[1]],
-        zoom: 15,
+        zoom: 14,
         // zoom: -5,
       });
       this.map.on("load", () => {
